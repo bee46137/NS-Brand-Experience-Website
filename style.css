@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    z-index: 0; 
 }
 
 /* NAV BAR - EVERY PAGE */
@@ -47,7 +48,7 @@ header > nav {
 }
 
 nav a {
-    padding: 7px;
+    padding: 14px 7px 0 7px;
     color: #2a2925;
     text-decoration: none;
 }
@@ -102,8 +103,22 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* SEE MORE BUTTON STYLINGS */
+
+.see-more-button {
+    padding: 5px;
+    border: 2px solid red;
+    background: none;
+}
+.see-more-button-inner {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
 
 /* HOME PAGE STYLINGS */
+/* intro styling */
 .circle {
     display: flex;
     justify-content: center;
@@ -126,15 +141,44 @@ footer a:hover {
     margin: 30px;
     font-size: 1.4rem;
 }
-.intro button {
-    padding: 5px;
-    border: 2px solid red;
-    background: none;
+
+
+/* OUR SERVICE OFFERING STYLING */
+
+.service-offering-home {
+    padding: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
 }
 
-.intro button a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: black;
+.service-offering-home picture{
+    margin: 20px ;
+    height: 90%;
+    width: auto;
+    overflow: hidden;
+    border-radius: 40px;
 }
+
+.service-offering-home aside {
+    padding: 10px;
+}
+
+.service-offering-home h2 {
+    padding: 20px 10px;
+    font-size: 2rem;
+}
+
+.service-offering-home p {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.service-offering-home button {
+    margin: 20px 10px;
+}
+
 
