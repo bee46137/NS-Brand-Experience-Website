@@ -6,16 +6,22 @@
     z-index: 0; 
 }
 
+main {
+    padding-top: 5%
+}
+
 /* NAV BAR - EVERY PAGE */
 
 header {
     width: 100%;
     height: auto;
-    padding: 2% 10%;
+    padding: 0.5% 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
 }
 
 header a {
@@ -138,7 +144,7 @@ footer a:hover {
 }
 
 .intro p {
-    margin: 30px;
+    margin: 6%;
     font-size: 1.4rem;
 }
 
@@ -151,7 +157,6 @@ footer a:hover {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    
 }
 
 .service-offering-home picture{
@@ -173,7 +178,7 @@ footer a:hover {
 
 .service-offering-home p {
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: left;
 }
 
@@ -181,4 +186,44 @@ footer a:hover {
     margin: 20px 10px;
 }
 
+/* RESPONSIBLE STRATEGIES SECTION - HOME PAGE */
 
+.responsible-strategies-home {
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.responsible-strategies-home h3 {
+    padding: 20px 10px;
+    font-size: 2rem;
+}
+
+.responsible-strategies-home p {
+    padding: 20px 10px;
+    font-size: 1.3rem;
+}
+
+.responsible-strategies-home picture {
+    display: flex;
+    justify-content: center;
+}
+
+/* PORTFOLIO SECTION - HOME PAGE */
+
+.portfolio-home {
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.portfolio-home h4 {
+    padding: 20px 10px;
+    font-size: 2rem;
+}
+
+.portfolio-home p {
+    padding: 20px 10px;
+    font-size: 1.3rem;
+}
