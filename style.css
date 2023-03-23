@@ -327,3 +327,67 @@ STYLINGS */
     text-align: justify;
     display: none;
 }
+
+
+/* SERVICES
+PAGE - 
+STYLES */
+/* BRAND DEVELOPMENT SECTION */
+.brand-development-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 6%;
+}
+
+.brand-development-section aside {
+    width: 45%;
+}
+
+.brand-development-section aside h1{
+    font-size: 3rem;
+    padding-bottom: 8%;
+}
+
+.brand-development-section aside p{
+    font-size: 1.3rem;
+}
+
+.brand-development-section picture {
+    overflow: hidden;
+}
+
+.brand-development-section img {
+   object-fit: cover;
+   width: 500px;
+}
+
+/* SERVICES SECTION */
+
+.material-symbols-outlined {
+    display: inline-block;
+}
+
+.services-section {
+    padding: 1% 6%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2em;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.service h2 {
+    font-size: 2rem;
+    padding: 5% 0;
+}
+
+.service p {
+    font-size: 1.3rem;
+    padding: 5% 0;
+}
