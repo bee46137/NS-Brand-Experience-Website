@@ -7,7 +7,7 @@
 }
 
 main {
-    padding-top: 5%
+    padding: 6%
 }
 
 /* NAV BAR - EVERY PAGE */
@@ -390,4 +390,41 @@ STYLES */
 .service p {
     font-size: 1.3rem;
     padding: 5% 0;
+}
+
+
+/* PORTFOLIO
+PAGE
+STYLINGS */
+/* MAIN SECTION */
+
+.portfolio-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3em;
+    padding: 10% 5%;
+}
+
+.portfolio-main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-main section h1 {
+    font-size: 2rem;
+    margin: 5%;
+}
+
+.portfolio-main section p {
+    font-size: 1.3rem;
+    margin: 5%;
+}
+
+.portfolio-main section button {
+    width: 35%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
 }
