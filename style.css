@@ -428,3 +428,96 @@ STYLINGS */
     display: flex;
     justify-content: center;
 }
+
+/* CLIENTS
+AND
+TESTIMONIAL
+PAGE STYLINGS */
+
+.clients-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-heading h1 {
+    font-size: 2rem;
+    padding: 5%;
+}
+
+.clients-heading p {
+    font-size: 1.3rem;
+    padding: 0 5% 5% 5%;
+}
+.clients-grid {
+    padding: 0 10% 10% 10%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+}
+.clients-grid picture {
+    width: 20vw;
+    height: 20vh;
+    overflow: hidden;
+}
+.clients-grid picture img {
+    width: 100%;
+    height: 100%;
+}
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial h3 {
+    font-size: 2rem;
+    padding: 5%;
+    text-decoration: underline;
+}
+.testimonial p {
+    font-size: 1.3rem;
+    padding: 3%;
+}
+.testimonial picture {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* SOCIAL
+RESPONSIBILITY
+PAGE
+STYLINGS */
+
+.social-responsibility-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-responsibility-section aside {
+    padding: 5%;
+}
+
+.social-responsibility-section aside h1{
+    padding: 5% 0;
+    font-size: 2rem;
+}
+
+.social-responsibility-section aside p{
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+}
