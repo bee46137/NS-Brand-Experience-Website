@@ -279,8 +279,9 @@ STYLINGS */
 
 .people {
     padding: 2%;
-    width: 20%;
-    display: flex;
+    width: 20vw;
+    height: auto;
+    display: inline;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -289,7 +290,7 @@ STYLINGS */
 .people img {
     overflow: hidden;
     object-fit: cover;
-    height: 100%;
+    height: 300px;
     width: 100%;
 }
 
