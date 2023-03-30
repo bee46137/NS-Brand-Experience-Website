@@ -1,0 +1,11 @@
+@media (max-width: 1270px) and (min-width: 1000px){
+
+    header {
+        padding: 0.5% 5%;
+    }
+
+    header nav a {
+        font-size: 21.5px;
+    }
+
+}
